@@ -1,2 +1,3 @@
-# vier-gewinnt
-vier-gewinnt funktional python
+# 4 Gewinnt in Python
+- Funktional
+- GUI mit Pygame
