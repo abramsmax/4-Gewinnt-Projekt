@@ -1,2 +1,4 @@
-# vier-gewinnt
-Projekt für DHBW-Mannheim: Moderne Programmierkonzepte!!!!
+# 4 Gewinnt in Java 
+- Objektorientiert 
+- GUI mit Processing
+
