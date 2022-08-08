@@ -136,7 +136,7 @@ def Game(Spieler1, Spieler2, ANZAHL_SPALTEN_ZEILEN): #Game Funktion Anfang
         hoehe = (len(spielfeld[0]) + 1) * QUADRAT
         size = (breite, hoehe)
 
-        fonttype = pygame.font.SysFont("Bauhaus 93", int (QUADRAT*0.4)) #Schriftart der Textfelder
+        fonttype = pygame.font.SysFont("Bauhaus 93", int (QUADRAT*0.2)) #Schriftart der Textfelder
         currspieler = 1
         ende = False
         ZugZähler = 0
@@ -217,7 +217,7 @@ def Game(Spieler1, Spieler2, ANZAHL_SPALTEN_ZEILEN): #Game Funktion Anfang
                 if ende == True:
                     pygame.draw.rect(screen, BLACK, (0,0, breite, QUADRAT))
                     label = fonttype.render("NOCHMAL? -> SPACE   ENDE? -> X", 1, WHITE)
-                    screen.blit(label, (QUADRAT*1.25,QUADRAT/4))
+                    screen.blit(label, (QUADRAT*0.5,QUADRAT/4))
                     pygame.display.update()
                     pygame.event.wait()
 
